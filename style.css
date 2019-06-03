@@ -1,35 +1,47 @@
+/* common styling */
+
 .container {
     width: 1000px;
     margin: auto;
-    background-color: azure;
+    /* background-color: azure; */
 }
 
-#title-image {
-    display: block;
-    margin: auto;
-    margin-top:50px;
-    margin-bottom:50px;
+a {
+    text-decoration: none;
 }
 
-#you-asked-for-it {
-    height: 1000px;
-    background-image: url("./images/hero-image.jpg");
-    background-position: center;
-    background-size: cover;
-    padding: 50px;
-    color: white;
-}
-
-.you-asked-text {
-position: absolute;
-bottom: -400px;
-}
-
-.text-description{
-    text-align: center;
-    padding: 100px;
+.font-200{
     font-size: 200%;
 }
+.font-400{
+    font-size: 400%;
+}
+
+.col-2 {
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+
+.col-4 {
+    width: 25%;
+    margin: auto;
+    float: left;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.clear {
+    clear: both;
+}
+
+.padding-30 {
+    padding: 0px 30px 0px 30px;
+}
+
+/* buttons */
 
 .button-white {
     padding: 10px 100px;
@@ -39,9 +51,6 @@ bottom: -400px;
     color: black;
 }
 
-.button-white:hover{
-cursor: pointer;
-}
 .button-black {
     padding: 10px 10px;
     background-color: black;
@@ -49,13 +58,64 @@ cursor: pointer;
     vertical-align: middle;
     color: white;
 }
-.button-black:hover{
-cursor: pointer;
+
+/* title area */
+
+#title-image {
+    display: block;
+    margin: auto;
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
-.button-text {
-    position: absolute;
-    bottom: 0px;
+/* you asked for it area */
+
+#you-asked-for-it {
+    height: 1000px;
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.2)), url("./images/hero-image.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+}
+
+#you-asked-for-it h1, h4{
+    margin: 0px;
+}
+#you-asked-for-it p{
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+.you-asked-text {
+position: absolute;
+bottom: -400px;
+}
+
+/* text area */
+
+.text-description{
+    text-align: center;
+    padding: 70px;
+    font-size: 200%;
+}
+
+/* shirt colors area */
+
+.heather-image {
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:block;
+    width: 80%;
+    margin: auto;
+    border: solid white 5px;
+    position: relative;
+    bottom: 150px;
+}
+
+.text-mask {
+  color: black;
+  mix-blend-mode: lighten;
+  background-color: white;
 }
 
 #purple-texture {
@@ -71,14 +131,6 @@ cursor: pointer;
     background-size: cover;
 }
 
-.lavender-heather-image {
-    display:block;
-    width: 80%;
-    margin: auto;
-    border: solid white 5px;
-    position: relative;
-    bottom: 150px;
-}
 
 #pink-texture {
     height: 350px;
@@ -87,45 +139,40 @@ cursor: pointer;
     background-size: cover;
 }
 
-.font-200{
-    font-size: 200%;
-}
-
 .pyrenees-text-space{
     background-image: url("./images/pink-texture.jpg");
     background-position: center;
     background-size: cover;
 }
 
-.pyrenees-heather-image {
-    display:block;
-    width: 80%;
-    margin: auto;
-    border: solid white 5px;
-    position: relative;
-    bottom: 150px;
+/* logo area */
+
+#logo-section {
+    background-color: #7e768e;
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    padding: 60px;
 }
 
-.lighten {
-  color: black;
-  mix-blend-mode: lighten;
-  background-color: white;
+#logo-section p {
+    margin-top: 0px;
 }
 
-.col {
-    width: 50%;
-    margin: auto;
-    float: left;
+#shirt-logo {
+    margin-top: 14px;
+    margin-bottom: 13px;
 }
 
-.margin-left-10 {
-    margin-left: 10px;
+.logo-image {
+    width: 60%;
 }
 
-.clear {
-    clear: both;
-}
+/* final area  */
 
-.padding-30 {
-    padding: 0px 30px 0px 30px;
+#push-up-section {
+    padding: 250px;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/bottom-image.jpg");
+    background-position: center;
+    background-size: cover;
 }
