@@ -271,6 +271,8 @@ bottom: -400px;
     }
 }
 
+/* more in between media queries */
+
 @media only screen and (max-width: 550px) {
     .font-200 {
         font-size: 130%;
