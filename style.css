@@ -10,9 +10,14 @@ a {
     text-decoration: none;
 }
 
+.font-150{
+    font-size: 150%;
+}
+
 .font-200{
     font-size: 200%;
 }
+
 .font-400{
     font-size: 400%;
 }
@@ -21,6 +26,7 @@ a {
     width: 50%;
     margin: auto;
     float: left;
+    height: 460px;
 }
 
 .col-4 {
@@ -41,6 +47,11 @@ a {
     padding: 0px 30px 0px 30px;
 }
 
+.fam-1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.2em;
+}
+
 /* buttons */
 
 .button-white {
@@ -49,6 +60,8 @@ a {
     text-align: center;
     vertical-align: middle;
     color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.3em;
 }
 
 .button-black {
@@ -57,6 +70,8 @@ a {
     text-align: center;
     vertical-align: middle;
     color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.3em;
 }
 
 /* title area */
@@ -129,6 +144,7 @@ bottom: -400px;
     background-image: url("./images/purple-texture.jpg");
     background-position: center;
     background-size: cover;
+    line-height: 200%;
 }
 
 
@@ -143,6 +159,8 @@ bottom: -400px;
     background-image: url("./images/pink-texture.jpg");
     background-position: center;
     background-size: cover;
+    line-height: 200%;
+
 }
 
 /* logo area */
@@ -153,6 +171,9 @@ bottom: -400px;
     color: white;
     font-size: 150%;
     padding: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 0.2em;
+
 }
 
 #logo-section p {
