@@ -1,8 +1,12 @@
 /* common styling */
 
+body {
+    margin: 0;
+}
+
 .container {
-    width: 1000px;
-    margin: auto;
+    width: 100%;
+    margin-bottom: 20px;
     /* background-color: azure; */
 }
 
@@ -111,7 +115,7 @@ bottom: -400px;
 
 .text-description{
     text-align: center;
-    padding: 70px;
+    padding: 70px 180px 70px 180px;
     font-size: 200%;
 }
 
@@ -119,12 +123,12 @@ bottom: -400px;
 
 .heather-image {
     box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    display:block;
-    width: 80%;
+    display: block;
+    width: 60%;
     margin: auto;
     border: solid white 5px;
     position: relative;
-    bottom: 150px;
+    bottom: 200px;
 }
 
 .text-mask {
@@ -134,7 +138,7 @@ bottom: -400px;
 }
 
 #purple-texture {
-    height: 350px;
+    height: 400px;
     background-image: url("./images/purple-texture.jpg");
     background-position: center;
     background-size: cover;
@@ -149,7 +153,7 @@ bottom: -400px;
 
 
 #pink-texture {
-    height: 350px;
+    height: 400px;
     background-image: url("./images/pink-texture.jpg");
     background-position: center;
     background-size: cover;
@@ -196,4 +200,170 @@ bottom: -400px;
     background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("./images/bottom-image.jpg");
     background-position: center;
     background-size: cover;
+}
+
+/* media query fo keep images looking good */
+
+@media only screen and (max-width: 950px) {
+    body {
+        /* background-color: lightgreen; */
+    }
+
+    .heather-image {
+        width: 80%;
+    }
+}
+
+/* media query for 768px */
+
+@media only screen and (max-width: 768px) {
+
+    body {
+        /* background-color: lightblue; */
+    }
+
+    .font-150{
+        font-size: 100%;
+    }
+
+    .font-200{
+        font-size: 150%;
+    }
+
+    .font-400{
+        font-size: 350%;
+    }
+    
+    #title-image {
+        width: 120px;
+    }
+
+    #you-asked-for-it {
+        height: 800px;
+    }
+
+    .you-asked-text {
+        bottom: -200px;
+    }
+
+    .text-description {
+        font-size: 150%;
+        padding: 50px 110px 50px 110px;
+    }
+
+    .heather-image {
+    bottom: 100px;
+    }
+
+    .padding-30 {
+        padding: 15px;
+    }
+
+    #purple-texture, #pink-texture {
+        height: 300px;
+    }
+
+    .col-2 {
+        height: 400px;
+    }
+
+    #logo-section {
+        font-size: 100%;
+    }
+
+    #push-up-section {
+        padding: 200px 100px 200px 100px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .font-200 {
+        font-size: 130%;
+    }
+
+    .heather-image {
+        bottom: 20px;
+    }
+
+    #logo-section {
+        font-size: 80%;
+        padding: 40px;
+    }
+}
+
+/* media query for 425px */
+
+@media only screen and (max-width: 425px) {
+    body {
+        /* background-color: lightgoldenrodyellow; */
+    }
+
+    #title-image {
+        width: 100px;
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+
+    .font-150{
+    font-size: 100%;
+    }
+
+    .font-200{
+        font-size: 120%;
+    }
+
+    .font-400{
+        font-size: 250%;
+    }
+
+    #you-asked-for-it {
+        height: 600px;
+    }
+
+    .you-asked-text {
+        bottom: 60px;
+    }
+
+    #you-asked-for-it p{
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+    .button-white {
+        padding: 10px 50px;
+    }
+
+    .text-description {
+        padding: 50px;
+    }
+
+    #purple-texture {
+        height: 200px;
+    }
+
+    #pink-texture {
+        height: 200px;
+    }
+
+    .heather-image {
+        width: 90%;
+        bottom: 20px;
+    }
+
+    .padding-30 {
+        padding: 10px;
+    }
+
+    .col-2 {
+        height: 300px;
+    }
+
+    #logo-section {
+        padding: 30px 10px 30px 10px;
+        font-size: 80%;
+    }
+
+    #push-up-section {
+        padding: 100px 50px;
+    }
 }
