@@ -3,3 +3,27 @@
     margin: auto;
     background-color: azure;
 }
+
+#title-image {
+    margin-left: 400px;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+
+#you-asked-for-it {
+    height: 1000px;
+    background-image: url("./images/hero-image.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 50px;
+    color: white;
+}
+
+.button {
+    width: 350px;
+    height: 80px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+}
