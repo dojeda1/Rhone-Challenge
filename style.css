@@ -5,7 +5,8 @@
 }
 
 #title-image {
-    margin-left: 400px;
+    display: block;
+    margin: auto;
     margin-top:50px;
     margin-bottom:50px;
 }
@@ -19,11 +20,103 @@
     color: white;
 }
 
-.button {
+.you-asked-text {
+position: absolute;
+bottom: -400px;
+}
+
+.text-description{
+    text-align: center;
+    padding: 100px;
+    font-size: 200%;
+}
+
+.button-white {
     width: 350px;
     height: 80px;
     background-color: white;
     text-align: center;
     vertical-align: middle;
     color: black;
+}
+.button-black {
+    width: 350px;
+    height: 80px;
+    background-color: black;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+}
+
+.button-text {
+    position: absolute;
+    bottom: 0px;
+}
+
+#purple-texture {
+    height: 350px;
+    background-image: url("./images/purple-texture.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.lavender-section{
+    font-size: 200%;
+}
+
+.lavender-text-space{
+ background-image: url("./images/purple-texture.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.lavender-heather-image {
+    display:block;
+    width: 80%;
+    margin: auto;
+    border: solid white 5px;
+    position: relative;
+    bottom: 150px;
+}
+
+#pink-texture {
+    height: 350px;
+    background-image: url("./images/pink-texture.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.pyrenees-section{
+    font-size: 200%;
+}
+
+.pyrenees-text-space{
+    background-image: url("./images/pink-texture.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.pyrenees-heather-image {
+    display:block;
+    width: 80%;
+    margin: auto;
+    border: solid white 5px;
+    position: relative;
+    bottom: 150px;
+}
+
+.lighten {
+  color: black;
+  mix-blend-mode: lighten;
+  background-color: white;
+}
+
+.col {
+    width: 50%;
+    margin: auto;
+    float: left;
+}
+
+.clear {
+    clear: both;
 }
